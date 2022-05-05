@@ -26,7 +26,7 @@ body {
   margin-right: auto;
   margin-bottom: 20px;
   border-radius: 10px;
-  box-shadow:  10px 10px 10px 5px white
+  box-shadow:  -10px 10px 10px 5px white
 }
 
 .izq {
@@ -49,14 +49,18 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 50px;
+  height: 61px;
   border-bottom: 1px solid white;
 }
 
 .productGlobal {
   width: 100%;
+  height: 50%;
   display: block;
+  
 }
+
+
 
 .products {
   display: flex;
@@ -66,26 +70,42 @@ body {
   width: 100%;
   height: 120px;
   border: 1px solid white;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  
+ 
+ 
+}
+
+.imagen{
+  width: 100%;
+  height: 100%;
+  opacity: .8;
+}
+.ruleTenis h4{
+  color: white;
+  font-size: bold;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
 
 .ruleTenis {
   width: 100%;
   height: 120px;
   border: 1px solid white;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/WhatsApp\ Image\ 2022-05-03\ at\ 3.02.39\ PM.jpeg");
-  background-size: cover;
+  position: relative;
+ text-align: center;
+  
 }
 
-.ruleTenis span {
-  opacity: 1;
-  color: white;
-}
+
 
 .image {
   width: 200px;
@@ -109,4 +129,51 @@ body {
 .reservarText {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.title{
+  margin-top: 3px;
+  
+}
+
+.descriptionSchedule{
+  width: 100%;
+  height: 40px;
+  border: 1px solid white;
+  border-top: none;
+  border-left: none;
+}
+
+.tablet{
+  
+  width: 100%;
+  height: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: none;
+  border-left: none;
+  
+}
+
+.headerTable{
+  padding-left: 10px;
+  padding-right: 10px;
+  background: rgb(34, 2, 71);
+  color: black;
+  width: 300px;
+  color: rgb(255, 253, 253);
+  border: none;
+}
+
+tr:nth-of-type(1)> th{
+  background-color: rgba(22, 71, 38, 0.897);
+} 
+
+
+.containerTablet{
+  background: white;
+  color: blue;
+  border: none;
 }
